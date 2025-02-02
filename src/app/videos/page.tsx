@@ -54,7 +54,7 @@ export default async function Videos() {
         <VideoSection
           title="Autonomous Patrol & Response"
           videoId="_ZbnTWCrEPc"
-          description="Experience autonomous 24/7 surveillance with smart route optimization and instant alert capabilities, ensuring continuous coverage of your facility."
+          description="Experience autonomous 24/7 surveillance with advanced route optimization and instant alert capabilities, ensuring continuous coverage of your facility."
         />
       </div>
     </div>
