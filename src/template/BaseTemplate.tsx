@@ -21,10 +21,10 @@ export const BaseTemplate = (props: {
         <header className="mx-auto flex max-w-screen-md flex-row items-start justify-between border-b border-gray-300">
           <div className="">
             <h1 className="text-3xl font-bold text-gray-900">
-              RoboGuard
+              datamimic
             </h1>
             <h2 className="text-xl">
-              Redefining security with AI robotics
+              Humanoid data done for you
             </h2>
           </div>
           <div className="flex justify-between">
