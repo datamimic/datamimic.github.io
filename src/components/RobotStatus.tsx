@@ -80,7 +80,7 @@ export function RobotStatus() {
   return (
     <div className="rounded-lg bg-white p-4 shadow">
       <div className="mb-4 flex items-center justify-between">
-        <h3 className="text-lg font-bold">Patrol Map</h3>
+        <h3 className="text-lg font-bold">Studio Map</h3>
 
         <div className="flex gap-4">
           <div className="flex items-center gap-2 text-sm">
