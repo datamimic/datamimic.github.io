@@ -22,15 +22,15 @@ export default async function Videos() {
     <div className="mx-auto max-w-screen-xl px-4">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <VideoSection
-          title="All-Terrain Mobile Surveillance"
-          videoId="AQ_ogAbccYg"
-          description="Watch our robot showcase advanced parkour capabilites as it is capable of navigates stairs, uneven terrain with ease, maintaining stable surveillance operations in any environment."
+          title="Walking Policy Tested on Real Hardware"
+          videoId="9qvbCUorK34"
+          description="This demo shows our end-to-end pipeline in action: human operators in MoCap suits collect diverse locomotion trajectories, which we retarget to the robot’s kinematic model. We then train a sim-to-real walking policy on that dataset and deploy it directly to hardware—achieving dynamic, stable humanoid gait."
         />
 
         <VideoSection
-          title="360° AI Threat Detection"
-          videoId="iX8dQpj5mdE"
-          description="Our advanced AI system provides comprehensive threat detection, instantly identifying and analyzing potential security risks in real-time."
+          title="Simulation Pipeline: Training Policies from Our Dataset"
+          videoId="D3dI63GXNTk"
+          description="In our high-fidelity simulator, we initialize the humanoid with retargeted motion and teleop trajectories from our dataset, then train and validate robust control policies before real-world deployment. This pipeline helps humanoid companies validate their dataset fast in simulation."
         />
 
         <VideoSection
