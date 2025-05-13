@@ -34,18 +34,18 @@ export default async function Videos() {
         />
 
         <VideoSection
-          title="Security Analytics"
-          videoId="vYd5IjwT5uE"
-          description="Comprehensive analytics platform records and analyzes footage to provide valuable security insights and optimize operations."
+          title="Our MoCap Setup"
+          videoId="vIc5sNNMnd4"
+          description="Our MoCap studio captures precise full-body human motions using high-fidelity sensors. We then automatically retarget those recordings to the robot’s kinematic model, creating realistic training data for robust policy development."
         />
 
         <VideoSection
-          title="Operator Control Takeover"
-          videoId="RPGcojM81s0"
-          description="Seamless manual control capabilities allow security personnel to take immediate action when suspicious activities are detected."
+          title="Fine manipulation tasks"
+          videoId="5iIs3b9yFvs"
+          description="This demo highlights dexterous manipulation learned from our teleoperation dataset. Operators use VR headsets and haptic sensor gloves to capture precise finger trajectories, force profiles, and tactile feedback, which we use to train and validate fine manipulation models."
         />
 
-        <VideoSection
+        {/* <VideoSection
           title="Two-Way Communication"
           videoId="t1kuW52HNGk"
           description="Interactive audio system enables direct communication between operators and on-site personnel for rapid response."
@@ -55,7 +55,7 @@ export default async function Videos() {
           title="Autonomous Patrol & Response"
           videoId="_ZbnTWCrEPc"
           description="Experience autonomous 24/7 surveillance with advanced route optimization and instant alert capabilities, ensuring continuous coverage of your facility."
-        />
+        /> */}
       </div>
     </div>
   );
