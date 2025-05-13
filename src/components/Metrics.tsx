@@ -125,7 +125,7 @@ export function AlertsList() {
   if (!isConnected) {
     return (
       <div className="rounded-lg bg-white p-4 shadow">
-        <h3 className="mb-4 text-lg font-bold">Recent Info</h3>
+        <h3 className="mb-4 text-lg font-bold">Motion capture studio and onboard sensors</h3>
         <div className="text-center text-gray-500">Connecting...</div>
       </div>
     );
@@ -133,7 +133,7 @@ export function AlertsList() {
 
   return (
     <div className="mx-auto max-w-[1400px] rounded-lg bg-transparent py-4">
-      <h3 className="mb-4 text-lg font-bold">Recent Info</h3>
+      <h3 className="mb-4 text-lg font-bold">Motion capture studio and onboard sensors</h3>
 
       <div className="flex h-[420px] flex-wrap justify-center gap-4 overflow-y-auto">
         {Object.entries(cameraData).length === 0

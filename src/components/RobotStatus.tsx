@@ -23,19 +23,19 @@ const MOCK_ZONES: Zone[] = [
     id: 'zone1',
     type: 'restricted',
     points: 'M50,50 L150,50 L150,150 L50,150 Z',
-    label: 'Server Room',
+    label: 'Studio1',
   },
   {
     id: 'zone2',
     type: 'patrol',
     points: 'M200,100 L300,100 L300,200 L200,200 Z',
-    label: 'Main Corridor',
+    label: 'Studio2',
   },
   {
     id: 'zone3',
     type: 'alert',
     points: 'M350,150 L450,150 L450,250 L350,250 Z',
-    label: 'Loading Dock',
+    label: 'Studio3',
   },
 ];
 

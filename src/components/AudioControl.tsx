@@ -20,7 +20,7 @@ const MOCK_RECORDINGS: AudioRecord[] = [
     timestamp: new Date('2024-01-30T10:45:00'),
     duration: 8,
     source: 'operator',
-    camera: 'Camera 1',
+    camera: 'Sensor 1',
     saved: true,
   },
   {
@@ -28,7 +28,7 @@ const MOCK_RECORDINGS: AudioRecord[] = [
     timestamp: new Date('2024-01-30T10:42:00'),
     duration: 15,
     source: 'robot',
-    camera: 'Camera 2',
+    camera: 'Sensor 2',
     saved: true,
   },
 ];
@@ -39,15 +39,15 @@ export function AudioControl() {
   const [volume, setVolume] = useState(80);
 
   const [presetMessages] = useState([
-    'Please show your ID',
-    'This is a restricted area',
-    'Security has been notified',
-    'Please exit the building',
+    'Please pick up the box',
+    'Pass me the apple on the table',
+    'Raise your right hand',
+    'Go back to your original place',
   ]);
 
   return (
     <div className="rounded-lg bg-white p-4 shadow">
-      <h3 className="mb-4 text-lg font-bold">Two-Way Communication</h3>
+      <h3 className="mb-4 text-lg font-bold">Text/Voice commands</h3>
 
       {/* Main Controls */}
       <div className="mb-4 grid grid-cols-2 gap-4">

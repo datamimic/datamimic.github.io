@@ -22,26 +22,26 @@ const MOCK_INCIDENTS: Incident[] = [
     id: '1',
     timestamp: new Date('2024-01-30T10:30:00'),
     type: 'alert',
-    camera: 'Camera 1',
-    description: 'Unauthorized person detected in restricted area',
+    camera: 'Sensor 1',
+    description: 'Data Collection errors',
     severity: 'high',
-    details: 'Person detected near server room entrance',
+    details: 'Outside the boundary',
     thumbnail: '/thief.jpeg',
   },
   {
     id: '2',
     timestamp: new Date('2024-01-30T10:25:00'),
     type: 'patrol',
-    camera: 'Camera 2',
-    description: 'Completed patrol route A',
+    camera: 'Sensor 2',
+    description: 'Completed trajectory',
     severity: 'low',
   },
   {
     id: '3',
     timestamp: new Date('2024-01-30T10:20:00'),
     type: 'detection',
-    camera: 'Camera 1',
-    description: 'Multiple people detected in loading dock',
+    camera: 'Sensor 1',
+    description: 'Position tracking error',
     severity: 'medium',
     thumbnail: '/multiple.jpeg',
   },
@@ -49,7 +49,7 @@ const MOCK_INCIDENTS: Incident[] = [
     id: '4',
     timestamp: new Date('2024-01-30T10:15:00'),
     type: 'battery',
-    camera: 'Camera 2',
+    camera: 'Sensor 2',
     description: 'Low battery warning (25%)',
     severity: 'medium',
   },
@@ -57,7 +57,7 @@ const MOCK_INCIDENTS: Incident[] = [
     id: '5',
     timestamp: new Date('2024-01-30T10:10:00'),
     type: 'system',
-    camera: 'Camera 1',
+    camera: 'Sensor 1',
     description: 'System update completed',
     severity: 'low',
   },
@@ -98,7 +98,7 @@ export function IncidentTimeline() {
   return (
     <div className="rounded-lg bg-white p-4 shadow">
       <div className="mb-4 flex items-center justify-between">
-        <h3 className="text-base font-bold">Incident Timeline</h3>
+        <h3 className="text-base font-bold">Tasks</h3>
 
         <div className="flex items-center gap-2">
           <Filter className="size-4 text-gray-500" />
@@ -107,11 +107,11 @@ export function IncidentTimeline() {
             value={filter}
             onChange={e => setFilter(e.target.value)}
           >
-            <option value="all">All Events</option>
-            <option value="alert">Alerts</option>
-            <option value="detection">Detections</option>
-            <option value="patrol">Patrol</option>
-            <option value="system">System</option>
+            <option value="all">All Options</option>
+            <option value="alert">Teleop</option>
+            <option value="detection">Capture</option>
+            <option value="patrol">Whole-body</option>
+            <option value="system">Hands-teleop</option>
           </select>
         </div>
       </div>
